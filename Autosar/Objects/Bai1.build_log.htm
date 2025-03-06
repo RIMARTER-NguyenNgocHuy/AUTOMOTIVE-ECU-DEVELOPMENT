@@ -1,0 +1,355 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Huy Acer, IUH, LIC=QF82M-XJNIQ-RANDM-X0FXP-N90M9-1ZGG8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Acer\Documents\Autosar\Bai1.uvprojx
+Project File Date:  12/08/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+RTE/Device/STM32F103RC/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+            ^
+RTE/Device/STM32F103RC/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+    ^
+1 warning generated.
+compiling system_stm32f10x.c...
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(124): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx)); 
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(230): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx)); 
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(22): warning: In file included from...
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(50): warning: padding size of 'TIM_TimeBaseInitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(283): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(366): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx)); 
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(448): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(527): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(589): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_CHANNEL(TIM_ICInitStruct->TIM_Channel));  
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(658): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(714): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(725): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+             TIM_BDTRInitStruct->TIM_Break | TIM_BDTRInitStruct->TIM_BreakPolarity |
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(808): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(833): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(874): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(911): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(939): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST4_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(966): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST9_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(991): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1010): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1038): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1079): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1120): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1152): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1178): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1202): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1232): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1271): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST5_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1318): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1342): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1366): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1390): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1411): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1435): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1460): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST4_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1485): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST5_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1512): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1537): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1561): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1585): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1609): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1635): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1660): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1685): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1710): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1736): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1760): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1784): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1808): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1831): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1855): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1878): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST1_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1902): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1926): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST1_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1950): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1978): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1982): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  tmp = CCER_CCE_Set << TIM_Channel;
+      ~ ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2008): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2012): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  tmp = CCER_CCNE_Set << TIM_Channel;
+      ~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2050): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2057): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  tmp1 = CCER_CCE_Set << (uint16_t)TIM_Channel;
+       ~ ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2094): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2122): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2146): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2172): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2204): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST7_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2227): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2248): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2266): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2280): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2294): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2308): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2322): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2336): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2355): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2377): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2399): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2421): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2443): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2459): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2472): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2485): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2498): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2511): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2524): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2559): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2602): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2636): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+C:/Users/Acer/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(2678): warning: implicit declaration of function 'assert_param' is invalid in C99 [-Wimplicit-function-declaration]
+  assert_param(IS_TIM_ALL_PERIPH(TIMx));
+  ^
+88 warnings generated.
+compiling stm32f10x_tim.c...
+linking...
+.\Objects\Bai1.axf: Error: L6218E: Undefined symbol RCC_APB1PeriphResetCmd (referred from stm32f10x_tim.o).
+.\Objects\Bai1.axf: Error: L6218E: Undefined symbol RCC_APB2PeriphResetCmd (referred from stm32f10x_tim.o).
+.\Objects\Bai1.axf: Error: L6218E: Undefined symbol assert_param (referred from stm32f10x_tim.o).
+.\Objects\Bai1.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 4 error messages.
+".\Objects\Bai1.axf" - 4 Error(s), 89 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: TIM Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103RC
+  .\RTE\_Target_1
+  C:\Users\Acer\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Acer\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+  C:\Users\Acer\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.6.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
